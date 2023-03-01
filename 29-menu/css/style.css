@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: silver;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+.heading h1 
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.btn
+{
+    color: rgb(51, 51, 4);
+    font-size: 20px;
+    background-color: silver;
+    border: 4px solid rgb(58, 58, 11);
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container
+{
+    margin-top: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img
+{
+    width: 200px;
+    border: 6px solid burlywood;
+    margin-right: 10px;
+}
+.cont-items
+{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.cont-details
+{
+    width: 300px;
+}
+.cont-details h2
+{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.cont-details .price p
+{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.break-items-close
+{
+    display: none;
+}
+
+.dinner-items-close
+{
+    display: none;
+}
+.launch-items-close
+{
+    display: none;
+}
